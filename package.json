@@ -11,7 +11,8 @@
     "typecheck": "tsc",
     "format:write": "prettier --write app",
     "format:check": "prettier --check app",
-    "test": "vitest"
+    "test": "vitest",
+    "docs:build": "vitepress build docs"
   },
   "dependencies": {
     "@remix-run/node": "^2.15.0",
@@ -40,6 +41,7 @@
     "typescript": "^5.1.6",
     "vite": "^5.1.0",
     "vite-tsconfig-paths": "^4.2.1",
+    "vitepress": "^1.5.0",
     "vitest": "^2.1.5"
   },
   "engines": {
